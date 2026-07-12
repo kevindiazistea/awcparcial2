@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tabla.css">
+    <title>Kevin Diaz - Parcial 2</title>
+</head>
+<body>
+    <p>Ingrese el nombre para saber el genero y la nacionalidad del mismo</p>
+    <div id="personaje">
+        <label>Nombre:</label>    
+        <input type="text" id="idNombre">  
+        <button onclick="VerifInput()">Buscar</button>
+    </div><br>
+    <div id="Errorinput"></div>
+    <table class="container">
+        <thead>
+            <tr>
+                <th><h1>Nombre</h1></th>
+                <th><h1>Genero</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="name"></td>
+                <td id="gender"></td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th><h1>Nacionalidad 1</h1></th>
+                <th><h1>Nacionalidad 2</h1></th>
+            </tr>
+        </thead>
+        <tbody id="nationalities">
+            <tr>
+                <td id="country1"></td>
+                <td id="country2"></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>(*)Nacionalidad 1 y 2 - Muestra las 2 primeras nacionalidades con mas probabilidades</h3>
+    <h4><a href="https://country-code.cl/es" target="_blank">Buscar CODIGO de nacionalidad</a></h4>
+</body>
+<script src="js/tabla.js"></script>
+</html>
