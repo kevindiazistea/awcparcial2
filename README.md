@@ -1,6 +1,6 @@
 # Parcial 2 - Apliaciones Web Cliente
 
-El objetivo del parcial 2 es desarrollar una demo funcional que permita autenticación de usuarios y consumo de APIs externas para obtener información sobre género y nacionalidad a partir de un nombre ingresado por el usuario.
+El objetivo del parcial 2 es desarrollar una demo funcional que permita autenticación de usuarios y consultas de APIs externas para obtener información sobre género y nacionalidad a partir de un nombre ingresado por el usuario.
 La aplicación simula un flujo real de un sitio web corporativo:
 primero se valida el acceso del usuario y luego se muestra una vista principal con consultas dinámicas.
   
